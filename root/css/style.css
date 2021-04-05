@@ -1,0 +1,349 @@
+/*navegador*/
+a {
+  text-decoration: none;
+  color: #e04186; }
+
+  a:hover {
+  color: #ffddba; }
+
+body {
+  background: linear-gradient(to top, #ece9e6, #ffffff);
+}
+
+.estilonav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+  .estilonav1 {
+  display: flex;
+  justify-content: flex-end; 
+  margin: 20px;
+  font-size: 20px;
+    }
+
+
+  .estilonav1-1 {
+  	color: #e04186;
+  	font-family: 'Cormorant Garamond', serif;
+  	margin-top: 20px;
+    justify-content: space-evenly;
+  }
+
+  li {
+  padding: 10px;
+ display: inline;
+ margin: 0px 10px; }
+
+ /*index*/
+ .container{
+  background-image: url(../imagenes/unnamed.jpg);
+  background-size: cover;
+  width:  100% ;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .subtitulo {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e04186;
+  background-color: #ffddba;
+  font-size: 40px;
+ }
+
+ .text2 {
+     text-align: center;
+     color: #e04186;
+     margin-top: 2%;
+     margin-left: 3%;
+     margin-right: 3%; 
+     font-size: 30px;
+     font-weight: 300;
+     font-family: 'Cormorant Garamond', serif;
+ }
+
+ .ventajas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 25px;
+ }
+
+ .ventajas1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 30px;
+  color: #e04186;
+ }
+
+ h3 {
+  font-weight: 300;
+ }
+
+.imgprecio{
+  margin-top: 20px;
+  transform: translate(-22px, 0px);
+}
+
+.imgpersonalizado{
+  margin-top: 20px;
+  transform: translate(10px,0px);
+}
+
+.imgduracion{
+  margin-top: 20px;
+  transform: translate(22px, 0px);
+}
+
+ /*sobre mi*/
+ .mi-titulo{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e04186;
+  background-color: #ffddba;
+  font-size: 40px;
+ }
+
+ .mi-div {
+  display: flex;
+  justify-content: center;
+ }
+
+ .mi-img{
+  margin: 30px;
+ }
+
+ .mi-p {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  margin-right: 20px;
+  color: #e04186;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+ }
+
+ /*servicio*/
+ #myvideo{
+  width: 100%;
+  height: 100%;
+ }
+
+.servicios-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #e04186;
+  margin-top: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+}
+
+.subcontacto1{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  text-align: center;
+  background-color: #ffddba;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #e04186;
+}
+
+.rowservicio{
+display:grid;
+grid-template-columns: 30rem 600px ;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.rowservicio1{
+  display: grid;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  grid-template-columns:  600px 30rem ;
+}
+
+/*galeria*/
+.galeria-titulo{
+   font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e04186;
+  background-color: #ffddba;
+  font-size: 40px;
+}
+
+.galeria-img{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+}
+
+/*contacto*/
+.estilomapa {
+  margin: 8%;
+}
+
+.contacto{
+  background-color: #ffddba;
+}
+
+.subcontacto { /* contacto y servicio*/
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  text-align: center;
+  background-color: #ffddba;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #e04186;
+   }
+
+.sub2contacto {
+   font-family: 'Cormorant Garamond', serif;
+   font-weight: 400;
+   font-size: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #e04186;
+   margin-bottom: 4%;
+}
+
+.flexcontainer{
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.flexcontainer1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form2{
+  width: 100%; 
+}
+
+.formulario {
+  color: #e04186;
+  margin: 5%;
+}
+
+.formulario div{
+  display: block;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formulario div input {
+  padding: 0.2rem;
+  margin-top: 2px;
+  width: 100%;
+  height: 50%;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+.formulario textarea{
+  display: block;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 50%;
+  margin-left: 0.3rem;
+}
+
+ .formulario select{
+  display: block;
+  border: none;
+  border-radius: 10px;
+  color: #e04186;
+  margin: 0.5rem;
+  height: 20%;
+  width: 100%;
+}
+ 
+.formulario label{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+}
+
+.formulario .button{
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 900;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0.2rem;
+  color: #e04186;
+  background-color: #fff;
+}
+
+.formulario .button:hover {
+  background-color: #ffddba;
+}
+/*footer*/
+ .footer {
+   background-color:#ffddba;
+   margin-top: 5%;
+     justify-content: center;
+     text-align: center;
+     padding: 1%;
+ }
+
+ .footer .footer-row {
+   margin: 0%;
+    padding: 0%;
+ }
+
+ .footer .footer-text {
+     color: #e04186;
+     font-size: 15px;
+     font-weight:bold;
+     text-transform: uppercase;
+     text-align: center; 
+     font-family: 'Cormorant Garamond', serif;
+ }
+
+ .footer .footerimg {
+  max-height: 50px;
+  max-width: 50px;
+  margin-top: 2%;
+ }
+
+ .formulario {
+  color: #e04186;
+  margin: 5%;
+  height: calc(100% - 5%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
