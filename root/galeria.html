@@ -1,80 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Lashes by Pam</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lashes by Pam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
-	<header>
-		<nav class="estilonav"> <a href="index.html"> <img class="imgstyle" src="imagenes/LOGO2.png"  alt="logo"></a>
-			
-            <div class="estilonav1">
-                <ul>
-                    <li >
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light estilonav"> <a href="index.html"> <img class="imgstyle" src="imagenes/LOGO2.png"  alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+      
+            <div class="collapse navbar-collapse estilonav1" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> 
                         <a class="estilonav1-1" href="index.html">Inicio</a>
                    </li>
-                   <li>
+                   <li class="nav-item">
                     <a class="estilonav1-1" href="sobre-mi.html">Nosotras</a>
                    </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="estilonav1-1" href="servicios.html">Servicios</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="estilonav1-1" href="galeria.html">Galeria</a>
                     </li>
-                    <li >
+                    <li class="nav-item">
                         <a class="estilonav1-1" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
            </div>
-		</nav>
-	</header>
+    </nav>
+  </header>
 
-<main>
-    <div>
+<main class="container-fluid">
+    <div class="row">
         <h1 class="galeria-titulo"> Galeria</h1>
     </div>
-    <h2 class="sub2contacto">la belleza está en los detalles</h2>
-
-    <div class="galeria-img">
-                <img src="imagenes/peloapelo3.png" alt="peloapelo3" title="peloapelo">
-
-                <img src="imagenes/peloapelo5.jpg"  alt="peloapelo5" title="peloapeolo">
-             
-                <img src="imagenes/peloapelo6.jpg"alt="peloapelo6" title="peloapeolo">
-               
-                <img src="imagenes/peloapelo4.jpg" alt="peloapelo4" title="peloapeolo">
-               
-                <img src="imagenes/peloapelo1.jpg" alt="peloapelo1" title="peloapeolo">
-               
-                <img src="imagenes/volumen2.jpg" alt="volumen2" title="volumen">
-               
-                <img src="imagenes/volumen3.jpg" alt="volumen3" title="volumen">
-              
-                <img src="imagenes/volumen1.jpg" alt="volumen1" title="volumen">
-               
-                <img src="imagenes/volumen.jpeg" alt="volumen" title="volumen">
-
-                <img src="imagenes/volumen0.png" alt="volumen0" title="volumen">
-
-                <img src="imagenes/lifting.jpg" alt="lifting" title="lifting">
-
-                <img src="imagenes/lifting1.jpg" alt="lifting1" title="lifting">
-
-                <img src="imagenes/lifting2.png" alt="lifting2" title="lifting">
-
-                <img src="imagenes/lifting3.png" alt="lifting3" title="lifting">
-
-                <img src="imagenes/lifting4.png" alt="lifting4" title="lifting">
-
-                <img src="imagenes/lifting5.png" alt="lifting5" title="lifting">
-
-    </div>
+    <h2 class=" sub2contacto">la belleza está en los detalles</h2>
+       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">           
+                <img src="imagenes/peloapelo3.png" class="d-block w-100" alt="peloapelo3" title="peloapelo">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/peloapelo5.jpg" class="d-block w-100" alt="peloapelo5" title="peloapeolo">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/peloapelo6.jpg"class="d-block w-100" alt="peloapelo6" title="peloapeolo">
+             </div>
+             <div class="carousel-item"> 
+                <img src="imagenes/peloapelo4.jpg"class="d-block w-100" alt="peloapelo4" title="peloapeolo">
+            </div>
+            <div class="carousel-item"> 
+                <img src="imagenes/peloapelo1.jpg" class="d-block w-100" alt="peloapelo1" title="peloapeolo">
+            </div>
+            <div class="carousel-item">   
+                <img src="imagenes/volumen2.jpg" class="d-block w-100" alt="volumen2" title="volumen">
+             </div>
+             <div class="carousel-item">  
+                <img src="imagenes/volumen3.jpg" class="d-block w-100" alt="volumen3" title="volumen">
+             </div>
+             <div class="carousel-item"> 
+                <img src="imagenes/volumen1.jpg" class="d-block w-100" alt="volumen1" title="volumen">
+             </div> 
+             <div class="carousel-item"> 
+                <img src="imagenes/volumen.jpeg" class="d-block w-100" alt="volumen" title="volumen">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/volumen0.png" class="d-block w-100" alt="volumen0" title="volumen">
+            </div>
+            <div class="carousel-item">  
+                <img src="imagenes/lifting.jpg" class="d-block w-100" alt="lifting" title="lifting">
+            </div>  
+            <div class="carousel-item">
+                <img src="imagenes/lifting1.jpg" class="d-block w-100" alt="lifting1" title="lifting">
+            </div>
+            <div class="carousel-item">  
+                <img src="imagenes/lifting2.png" class="d-block w-100" alt="lifting2" title="lifting">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/lifting3.png" class="d-block w-100" alt="lifting3" title="lifting">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/lifting4.png" class="d-block w-100" alt="lifting4" title="lifting">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/lifting5.png" class="d-block w-100" alt="lifting5" title="lifting">
+            </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 </main>
+
  <footer class="footer"> 
     <div class="footer-row">
          <p class="footer-text"> seguinos en nuestras redes</p> 
@@ -87,5 +117,11 @@
                     </div>
 
  </footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
 </body>
 </html>
